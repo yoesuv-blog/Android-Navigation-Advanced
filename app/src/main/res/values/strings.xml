@@ -3,4 +3,5 @@
 
     <string name="fragment_home">Fragment Home</string>
     <string name="fragment_dashboard">Fragment Dashboard</string>
+    <string name="fragment_notification">Fragment Notification</string>
 </resources>

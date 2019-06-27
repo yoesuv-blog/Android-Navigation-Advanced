@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/menuHome"
+    <item android:id="@+id/fragmentHome"
           android:icon="@drawable/icon_home"
           android:title="@string/menu_home"/>
 
-    <item android:id="@+id/menuDashboard"
+    <item android:id="@+id/fragmentDashboard"
           android:icon="@drawable/icon_airport"
           android:title="@string/menu_dashboard"/>
 
-    <item android:id="@+id/menuNotification"
+    <item android:id="@+id/fragmentNotification"
           android:icon="@drawable/icon_notification"
           android:title="@string/menu_notification"/>
 

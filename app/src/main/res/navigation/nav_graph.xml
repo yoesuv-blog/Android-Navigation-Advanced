@@ -13,4 +13,20 @@
 
     </fragment>
 
+    <fragment
+            android:id="@+id/fragmentDashboard"
+            android:label="@string/fragment_dashboard"
+            android:name="com.yoesuv.navigationadvanced.DashboardFragment"
+            tools:layout="@layout/fragment_dashboard">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/fragmentNotification"
+            android:label="@string/fragment_notification"
+            android:name="com.yoesuv.navigationadvanced.NotificationFragment"
+            tools:layout="@layout/fragment_notification">
+
+    </fragment>
+
 </navigation>

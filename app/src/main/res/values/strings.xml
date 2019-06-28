@@ -3,9 +3,12 @@
 
     <string name="fragment_home">Fragment Home</string>
     <string name="fragment_dashboard">Fragment Dashboard</string>
+    <string name="fragment_dashboard_detail">Fragment Dashboard Detail</string>
     <string name="fragment_notification">Fragment Notification</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_dashboard">Dashboard</string>
     <string name="menu_notification">Notification</string>
+
+    <string name="button_detail_dashboard">Detail Dashboard</string>
 </resources>

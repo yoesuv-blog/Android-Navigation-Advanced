@@ -4,10 +4,20 @@
                 android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewDashboard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/fragment_dashboard"
             android:textSize="@dimen/font_size"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/textViewDashboard"
+            android:layout_centerHorizontal="true"
+            android:text="@string/button_detail_dashboard"/>
 
 </RelativeLayout>

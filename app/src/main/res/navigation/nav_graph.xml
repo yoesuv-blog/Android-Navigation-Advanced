@@ -21,6 +21,18 @@
             android:name="com.yoesuv.navigationadvanced.DashboardFragment"
             tools:layout="@layout/fragment_dashboard">
 
+        <action android:id="@+id/action_dashboard_to_dashboard_detail"
+                app:destination="@id/fragmentDashboardDetail"/>
+
+    </fragment>
+
+    <!-- fragment dashboard detail -->
+    <fragment
+            android:id="@+id/fragmentDashboardDetail"
+            android:label="@string/fragment_dashboard_detail"
+            android:name="com.yoesuv.navigationadvanced.DashboardDetailFragment"
+            tools:layout="@layout/fragment_dashboard_detail">
+
     </fragment>
 
     <!-- fragment notification -->

@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_notification.view.*
 
-class NotificationAdapter(private var listString: MutableList<String>): RecyclerView.Adapter<NotificationAdapter.NotificationViewHolder>() {
+class NotificationAdapter(private var listString: MutableList<String>, val itemClickListener: (String) -> Unit): RecyclerView.Adapter<NotificationAdapter.NotificationViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NotificationViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_notification, parent, false)
@@ -18,7 +18,11 @@ class NotificationAdapter(private var listString: MutableList<String>): Recycler
     }
 
     override fun onBindViewHolder(holder: NotificationViewHolder, position: Int) {
-        holder.bindData(listString[holder.adapterPosition])
+        val strData = listString[holder.adapterPosition]
+        holder.bindData(strData)
+        holder.itemView.setOnClickListener {
+            itemClickListener(strData)
+        }
     }
 
     class NotificationViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

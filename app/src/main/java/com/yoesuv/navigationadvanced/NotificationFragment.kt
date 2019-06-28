@@ -1,6 +1,7 @@
 package com.yoesuv.navigationadvanced
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -25,8 +26,12 @@ class NotificationFragment: Fragment() {
         for (i:Int in 0..100){
             listData.add("Item Notification $i")
         }
-        adapter = NotificationAdapter(listData)
+        adapter = NotificationAdapter(listData) { value: String -> onItemRecyclerViewClick(value) }
         view.recyclerViewFragmentNotification.adapter = adapter
+    }
+
+    private fun onItemRecyclerViewClick(value: String){
+        Log.d("result_debug","item clicked $value")
     }
 
 }

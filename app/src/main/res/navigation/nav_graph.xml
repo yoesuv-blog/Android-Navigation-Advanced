@@ -42,6 +42,18 @@
             android:name="com.yoesuv.navigationadvanced.NotificationFragment"
             tools:layout="@layout/fragment_notification">
 
+        <action android:id="@+id/action_notification_to_notification_detail"
+                app:destination="@id/fragmentNotificationDetail"/>
+
+    </fragment>
+
+    <!-- fragment notification detail -->
+    <fragment
+            android:id="@+id/fragmentNotificationDetail"
+            android:label="@string/fragment_notification_detail"
+            android:name="com.yoesuv.navigationadvanced.NotificationDetailFragment"
+            tools:layout="@layout/fragment_notification_detail">
+
     </fragment>
 
 </navigation>

@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_notification.view.*
 
@@ -23,6 +24,7 @@ class NotificationFragment: Fragment() {
         val layoutManager = LinearLayoutManager(context)
         view.recyclerViewFragmentNotification.layoutManager = layoutManager
 
+        listData.clear()
         for (i:Int in 0..100){
             listData.add("Item Notification $i")
         }
@@ -32,6 +34,9 @@ class NotificationFragment: Fragment() {
 
     private fun onItemRecyclerViewClick(value: String){
         Log.d("result_debug","item clicked $value")
+        val bundle = Bundle()
+        bundle.putString("data", value)
+        findNavController().navigate(R.id.action_notification_to_notification_detail)
     }
 
 }

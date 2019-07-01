@@ -1,4 +1,7 @@
 ## Android Navigation Advanced ##
+
+source code post [Android Navigation Library Advanced](https://yoesuv.blogspot.com/2019/07/android-navigation-library-advanced.html)
+
 Exploring [Android Navigation Library](https://developer.android.com/guide/navigation/), with Bottom Navigation View<br/>
 download demo apk [here](https://drive.google.com/file/d/1Cz_ECPFjyEP2rlXbQz5e-Ktok6BfSIJU/view?usp=sharing)
 

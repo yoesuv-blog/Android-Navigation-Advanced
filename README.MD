@@ -1,5 +1,7 @@
 ## Android Navigation Advanced ##
-Exploring [Android Navigation Library](https://developer.android.com/guide/navigation/), with Bottom Navigation View
+Exploring [Android Navigation Library](https://developer.android.com/guide/navigation/), with Bottom Navigation View<br/>
+download demo apk [here](https://drive.google.com/file/d/1Cz_ECPFjyEP2rlXbQz5e-Ktok6BfSIJU/view?usp=sharing)
+
 | Navigation |
 | :---: |
 | ![](https://lh3.googleusercontent.com/_mKrFs4CTsKowlmEHhanM8PKkBsnqupdx1y_eHItIQA_d0ZHGxnobF6vMIAGvwVR9ItV9KSEEsWKBfcxk1yGw00JA8ci9DfSFjudZ-8XBi182svjFb1hOFWCC9mw-A7I3xgbSSiuB0GDN8FpYJj7dAi9P1ZX2mfF9uSEWYk-2yC_dP6qNF5UbXBaqFSkJeMJ4KYnFdUd6E675LoC03TXTeKqR89C9xNmfyQCyy7dtRTDxfWc6bmbGSQjLxREiXzaoGP_I_ufxmbpWqBUT8fjozzy-9MHIC4bdIqghUbn9Pk1vijtP-OCMupiSN1pMjKn6J5qsR5swBXPh4wsM0DvmblXqEuLoWmU50v3hbG0fxT_5ASeuCoc-ZQe-q-B0Ms4NAL-nQ3fH0mY9PaNSOioE_XkN2o93EREmlPYD-5km-11Rf9V43Rk_tI4KtML_DESThuST00wp04Uzmn4ILwv1tDQtcnGfbB_BjXNd6jImrGYR4DIEZAg1fHFvcFowYwtjVVh4EdWo58u7c7nJx7zDCwuRMELYGR-YLGsfswkPfhYY8AmGLQ2FAK2Gv2eGwOpWPV1sa9N6Vorx6PL_YCwxTvMtSSSErS1lxRPIOMP1r8Z11Q-VzawYI9dGAY40Vmjf3-0dZ6HwC4HqAXurt2iEdxM4yr1XQY=w1187-h641-no) |

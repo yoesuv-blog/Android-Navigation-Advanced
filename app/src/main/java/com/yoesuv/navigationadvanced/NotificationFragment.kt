@@ -34,9 +34,10 @@ class NotificationFragment: Fragment() {
 
     private fun onItemRecyclerViewClick(value: String){
         Log.d("result_debug","item clicked $value")
-        val bundle = Bundle()
-        bundle.putString("data", value)
-        findNavController().navigate(R.id.action_notification_to_notification_detail)
+        val sampleData = SampleDataModel(value)
+        val action = NotificationFragmentDirections.actionNotificationToNotificationDetail()
+        action.dataDetailNotification = sampleData
+        findNavController().navigate(action)
     }
 
 }

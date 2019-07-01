@@ -43,13 +43,7 @@
             tools:layout="@layout/fragment_notification">
 
         <action android:id="@+id/action_notification_to_notification_detail"
-                app:destination="@id/fragmentNotificationDetail">
-            <argument
-                    android:name="data_detail_notification"
-                    app:argType="com.yoesuv.navigationadvanced.SampleDataModel"
-                    app:nullable="true"
-                    android:defaultValue="@null"/>
-        </action>
+                app:destination="@id/fragmentNotificationDetail"/>
 
     </fragment>
 
@@ -59,6 +53,12 @@
             android:label="@string/fragment_notification_detail"
             android:name="com.yoesuv.navigationadvanced.NotificationDetailFragment"
             tools:layout="@layout/fragment_notification_detail">
+
+        <argument
+                android:name="data_detail_notification"
+                app:argType="com.yoesuv.navigationadvanced.SampleDataModel"
+                app:nullable="true"
+                android:defaultValue="@null"/>
 
     </fragment>
 

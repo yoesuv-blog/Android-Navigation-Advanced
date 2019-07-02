@@ -2,6 +2,7 @@ package com.yoesuv.navigationadvanced
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -27,6 +28,14 @@ class MainActivity : AppCompatActivity() {
         val navController = Navigation.findNavController(this, R.id.fragmentMain)
         setupActionBarWithNavController( navController)
         NavigationUI.setupWithNavController(bottomNavigation, navController)
+    }
+
+    fun hideNavigation(value: Boolean) {
+        if (value) {
+            bottomNavigation.visibility = View.GONE
+        } else {
+            bottomNavigation.visibility = View.VISIBLE
+        }
     }
 
 }

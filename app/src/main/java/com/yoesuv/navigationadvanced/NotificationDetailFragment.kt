@@ -20,7 +20,13 @@ class NotificationDetailFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity).hideNavigation(true)
         view.textViewNotificationDetail.text = sampleDataModel?.value
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        (activity as MainActivity).hideNavigation(false)
     }
 
 }
